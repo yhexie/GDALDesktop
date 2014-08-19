@@ -273,7 +273,7 @@ void CGDALDesktopApp::OnFileNew()
 void _Log(string info,int line)
 {
 	//return;
-	string strDstTfwFilePath = "D:\\TilesEngine.log";
+	string strDstTfwFilePath = "D:\\GDALDesktop.log";
 	FILE *fileDstTfw = fopen(strDstTfwFilePath.c_str(), "a+" );
 	if(!fileDstTfw)
 	{
